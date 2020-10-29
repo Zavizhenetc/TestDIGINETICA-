@@ -1,0 +1,13 @@
+@import url('./blocks/root/root.css');
+@import url('./blocks/header/header.css');
+@import url('./blocks/nav/nav.css');
+@import url('./blocks/search/search.css');
+@import url('./blocks/button/button.css');
+@import url('./blocks/button/_search/button_search.css');
+@import url('./blocks/button/_close/button_close.css');
+@import url('./blocks/button/_results/button_results.css');
+@import url('./blocks/results/results.css');
+@import url('./blocks/results-aside/results-aside.css');
+@import url('./blocks/pagination/pagination.css');
+@import url('./blocks/footer/footer.css');
+@import url('./blocks/results/__filters-item/_activ/results__filters-item_activ.css');

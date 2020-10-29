@@ -1,0 +1,9 @@
+@import url('./__item/pagination__item.css');
+.pagination {
+  list-style: none;
+  display: flex;
+  padding:0;
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 18px;
+}

@@ -1,0 +1,11 @@
+.results__filters-item {
+  list-style: none;
+  margin-right: 1.2em;
+  color: #5375b7;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 19px;
+}
+.results__filters-item a {
+  text-decoration: none;
+}

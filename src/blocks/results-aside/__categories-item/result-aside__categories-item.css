@@ -1,0 +1,14 @@
+.result-aside__categories-item{
+  padding:0;
+  list-style:none;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 114%;
+  color: #5375B7;
+  margin-bottom: 1.05em;
+  cursor: pointer;
+}
+.result-aside__categories-item a{
+ text-decoration: none;
+ color:inherit;
+}

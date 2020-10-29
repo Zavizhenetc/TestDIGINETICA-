@@ -1,0 +1,28 @@
+.search__container {
+  position: relative;
+  display: flex;
+  height: 2.8em;
+}
+.search__container::before {
+  position: absolute;
+  content: '';
+  top: 30%;
+  left:  1.1em;
+  width: 23px;
+  height: 23px;
+  background-image: url('../../../images/search_icon.png');
+  background-repeat: no-repeat;
+/* background-size: cover; */
+  /* background-position: 15px center; */
+}
+
+.search__container::after {
+  position: absolute;
+  content: '';
+  top: 0.8em;
+  left: 1.3em;
+  width: 2px;
+  height: 1em;
+  margin-left: 1.5rem;
+  background-color: #888888;
+}

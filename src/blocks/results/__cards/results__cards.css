@@ -1,0 +1,14 @@
+.results__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 260px);
+  grid-gap: 5%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+.results__cards span {
+  color: #a9a9a9;
+  text-decoration-line: line-through;
+  padding-left: 11%;
+  font-size: 14px;
+  line-height: 16px;
+}

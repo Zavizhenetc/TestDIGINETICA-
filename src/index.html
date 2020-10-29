@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AnyQuery</title>
+    <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css %>" />
+    <link rel="icon" href="<%= require('./images/icon_cat.png').default%>"/>
+  </head>
+  <body class="root">
+    <header class="header">
+      <ul class="nav">
+        <li class="nav__item"><a href="#">main</a></li>
+        <li class="nav__item"><a href="#">orders</a></li>
+        <li class="nav__item"><a href="#">katalog</a></li>
+      </ul>
+    </header>
+    <section class="search">
+      <form id="search-form">
+        <div class="search__container">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Запрос пользователя "
+          />
+          <button class="button button_search">Найти</button>
+          <button class="button button_close">Закрыть</button>
+        </div>
+      </form>
+      <div class="search__results">
+        <h2 class="search__title">Результаты по запросу</h2>
+        <span class="search__query"
+          >Показаны результаты для “Запрос пользозвателя”. Вы искали “Зопрос пользователя”.</span
+        >
+      </div>
+      <div class="search__results-container">
+        <!-- здесь нав лучше подключить swiper? -->
+        <template id="items-container" class="item-container" display: none>
+        <div class="search__results-item">
+          <img
+            src="./images/404_page.png"
+            alt="фото товара"
+            class="search__results-item-img"
+          />
+          <div class="search__results-text">
+            <p class="search__results-item-title">Название категории</p>
+            <p class="search__results-item-count">134 товара</p>
+          </div>
+        </div>
+        
+        </template>
+      </div>
+
+    </section>
+    <section class="results">
+      <div class="results-aside">
+        <h3 class="results-aside__title">Все категории</h3>
+        <ul class="result-aside__categories">
+          <li class="result-aside__categories-item"><a href="#">Категория в которой нашли что-то</a>
+            <span>(ххх)</span>
+           </li>
+          <li class="result-aside__categories-item"><a href="#">Категория в которой нашли что-то</a>
+            <span>(ххх)</span>
+           </li>
+          <li class="result-aside__categories-item"><a href="#">Категория в которой нашли что-то</a>
+            <span>(ххх)</span>
+           </li>
+          <li class="result-aside__categories-item"><a href="#">Категория в которой нашли что-то</a>
+            <span>(ххх)</span>
+           </li>
+          <li class="result-aside__categories-item"><a href="#">Категория в которой нашли что-то</a>
+            <span>(ххх)</span>
+           </li>
+          <li class="result-aside__categories-item"><a href="#">Категория в которой нашли что-то</a>
+            <span>(ххх)</span>
+           </li>
+          <li class="result-aside__categories-item"><a href="#">Категория в которой нашли что-то</a>
+            <span>(ххх)</span>
+           </li>
+          <li class="result-aside__categories-item"><a href="#">Категория в которой нашли что-то</a>
+            <span>(ххх)</span>
+           </li>
+          <li class="result-aside__categories-item"><a href="#">Еще 10 категорий... </a>
+            
+           </li>
+        </ul>
+      </div>
+      <div class="results__items">
+        <div class="results__filters">
+          <div class="results__select-container">
+          <p class="results__filters-title">Сортировать по:</p>
+          <ul class="results__filters-items">
+            <li class="results__filters-item results__filters-item_activ "><a href="#">популярности</a></li>
+            <li class="results__filters-item  "><a href="#">сначала дешевые</a></li>
+            <li class="results__filters-item  "><a href="#">сначала дорогие</a></li>
+          </ul>
+        </div>
+          <div class="results__select-container">
+            <p class="results__filters-title">показывать по</p>
+          <select class="results__filters-select">
+            <option default="">24</option>
+            <option value="21">18</option>
+            <option value="24">21</option>
+            <option value="27">27</option>
+          </select>
+          </div>
+        </div>
+          <div class="results__buttons">
+           <button class="button button_results">Уточнение</button>
+           <button class="button button_results">Уточнение</button>
+           <button class="button button_results">Уточнение</button>
+           <button class="button button_results">Уточнение</button>
+          </div>
+          <div class="results__cards">
+            <template id="cards-container" class="cards-container" display: none>
+              <div class="result__card">
+               <img src="./images/404_page.png" alt="фото" class="results__card-img">
+               <p class="results__card-title">Наименование товара, которое не более 2 строк
+               </p>
+               <p class="results__card-prise">XX XXX $</p><span>XX XXX $</span>
+               <button class="button">Кнопка</button>
+              </div>
+            </template> 
+          </div>
+          <ul class="pagination">
+            <li class="pagination__item"><button type="button">2</button> </li>
+            <li class="pagination__item"><button type="button">3</button> </li>
+            <li class="pagination__item"><button type="button">...</button> </li>
+            <li class="pagination__item"><button type="button">13</button> </li>
+            <li class="pagination__item"><button type="button">›</button></li>
+           </ul>  
+        </div>
+
+    </section>
+    <footer class="footer">
+      <ul class="nav">
+        <li class="nav__item"><a href="#">main</a></li>
+        <li class="nav__item"><a href="#">orders</a></li>
+        <li class="nav__item"><a href="#">katalog</a></li>
+      </ul>
+    </footer>
+    <script type="module" src="<%= htmlWebpackPlugin.files.js %>"></script>
+  </body>
+</html>

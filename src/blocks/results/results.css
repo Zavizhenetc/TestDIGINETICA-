@@ -1,0 +1,21 @@
+@import url('./__items/results__items.css');
+@import url('./__filters-title/results__filters-title.css');
+@import url('./__filters/results__filters.css');
+@import url('./__filters-items/results__filters-items.css');
+@import url('./__filters-item/results__filters-item.css');
+@import url('./__filters-select/results__filters-select.css');
+@import url('./__buttons/results__buttons.css');
+@import url('./__select-container/results__select-container.css');
+@import url('./__cards/results__cards.css');
+@import url('./__card/result__card.css');
+@import url('./__card-title/results__card-title.css');
+@import url('./__card-prise/results__card-prise.css');
+@import url('./__card-img/results__card-img.css');
+.results{
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1.8% 3.3% 3.3%;
+  /* justify-content:space-between; */
+
+}

@@ -1,0 +1,6 @@
+.search__results-item-img{
+  max-width: 60px;
+  max-height: 60px;
+  object-fit: contain;
+
+}

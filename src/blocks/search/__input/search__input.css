@@ -1,0 +1,12 @@
+.search__input {
+  height: auto;
+  width: 72%;
+  padding-left: 4.4%;
+  outline: 0;
+  border-radius: 5px 0px 0px 5px;
+  border: 1px solid #c7c7c7;
+}
+.search__input::placeholder {
+  font-size: 14px;
+  color: #000;
+}

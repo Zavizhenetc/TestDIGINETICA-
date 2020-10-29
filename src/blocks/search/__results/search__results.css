@@ -1,0 +1,8 @@
+.search__results {
+  max-width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  padding: 0.8%;
+  padding-bottom: 0;
+}

@@ -1,0 +1,8 @@
+.search__results-container{
+ display: grid; 
+ padding-left: .8%;
+ padding-right: .8%;
+ grid-gap: 10px;
+ grid-template-columns: repeat(auto-fill, minmax(211px, 1fr)); 
+}
+

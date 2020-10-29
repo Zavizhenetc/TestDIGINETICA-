@@ -1,0 +1,6 @@
+.search__results-item {
+  display: flex;
+  border-right: 1px solid gray;
+  padding: 1.5%;
+  min-height: 60px;
+}

@@ -1,0 +1,6 @@
+@import url('./__title/results-aside__title.css');
+@import url('./__categories/result-aside__categories.css');
+@import url('./__categories-item/result-aside__categories-item.css');
+.results-aside {
+  margin-right: 4.7em;
+}
