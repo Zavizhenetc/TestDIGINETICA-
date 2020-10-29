@@ -1,0 +1,9 @@
+.nav__item{
+  list-style: none;
+  display: inline-flex; 
+  
+}
+.nav__item a{
+  color: white;
+  text-decoration: none;
+}

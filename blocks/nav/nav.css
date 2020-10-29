@@ -1,0 +1,7 @@
+@import url('./__item/nav__item.css');
+.nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  width: 44%;
+}

@@ -1,0 +1,6 @@
+@import url('./__input/search__input.css');
+.search{
+  max-width: 1440px;
+  padding: 2.3%;
+  padding-top: 2.5%;
+}
