@@ -1,10 +1,10 @@
 .result__card{
   display: flex;
   flex-wrap: wrap;
-  transition: all .35s ease-out;
+  /* transition: all .35s ease-out; */
 }
-.result__card:hover{
+/* .result__card:hover{
   transform: scale(1.05);
   box-shadow: 0 0 12px 1px rgb(241, 189, 69);
-}
+} */
 

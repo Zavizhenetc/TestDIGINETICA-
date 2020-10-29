@@ -2,4 +2,10 @@
   width:260px;
   height: 260px;
   object-fit: contain;
+  transition: all .35s ease-out;
+}
+.results__card-img:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 12px 1px rgb(241, 189, 69);
+  border-radius:10px;
 }

@@ -38,7 +38,7 @@
         <template id="items-container" class="item-container" display: none>
         <div class="search__results-item">
           <img
-            src="./images/404_page.png"
+            src=" <%= require('./images/404_page.png').default%>"
             alt="фото товара"
             class="search__results-item-img"
           />
@@ -114,7 +114,7 @@
           <div class="results__cards">
             <template id="cards-container" class="cards-container" display: none>
               <div class="result__card">
-               <img src="./images/404_page.png" alt="фото" class="results__card-img">
+               <img src=" <%= require('./images/404_page.png').default%>" alt="фото" class="results__card-img">
                <p class="results__card-title">Наименование товара, которое не более 2 строк
                </p>
                <p class="results__card-prise">XX XXX $</p><span>XX XXX $</span>
